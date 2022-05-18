@@ -15,62 +15,37 @@
 
 <body>
     <header>
-        <div class="px-3 py-2 bg-dark text-white">
-            <div class="container">
-                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                    <img src="../img/logo-fbfc7dbfeaf19c907d9673836cf63e351512187358.jpg" alt="Logo">
-                    <a href="/"
-                        class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-                        <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
-                            <use xlink:href="#bootstrap" />
-                        </svg>
-                    </a>
-
-                    <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
-                        <li>
-                            <a href="../index.html" class="nav-link text-secondary">
-                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
-                                    <use xlink:href="#home" />
-                                </svg>
-                                Inicio
-                            </a>
-                        </li>
-                        <li>
-                            <a href="./productos.html" class="nav-link text-white">
-                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
-                                    <use xlink:href="#speedometer2" />
-                                </svg>
-                                Productos
-                            </a>
-                        </li>
-                        <li>
-                            <a href="./como comprar.html" class="nav-link text-white">
-                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
-                                    <use xlink:href="#table" />
-                                </svg>
-                                Como Comprar
-                            </a>
-                        </li>
-                        <li>
-                            <a href="./ayuda.html" class="nav-link text-white">
-                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
-                                    <use xlink:href="#grid" />
-                                </svg>
-                                Ayuda
-                            </a>
-                        </li>
-                        <li>
-                            <a href="./contacto.html" class="nav-link text-white">
-                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
-                                    <use xlink:href="#people-circle" />
-                                </svg>
-                                Contacto
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- logo -->
+            <a class="navbar-brand" href="#">
+              <img src="../img/logo-fbfc7dbfeaf19c907d9673836cf63e351512187358.jpg" width="80" height="60" alt="">
+            </a>
+            
+            <!-- enlaces -->
+            <div class="collapse navbar-collapse" id="opciones">   
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/pages/productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/pages/como comprar.html">Como Comprar</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/pages/ayuda.html">Ayuda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+                  </li>            
+              </ul>
             </div>
-        </div>
+          </nav>
     </header>
     <div class="container">
         <div class="py-5 text-center">
@@ -78,20 +53,23 @@
           height="57">
           <h2>Como comprar en nustra pagina</h2>
       </div>
+
+      <section class="fotoscomo">
       <ol>
         <li><h3 class="pasos">Primer paso:</h3></li>
         <p class="pasos__texto">Añadir al carrito cada artículo de la tienda que desea haciendo click sobre el botón “agregar al carrito”</p>
-        <img class="imagen__ejemplo" src="../img/ejemplo3.jpg" alt="">
+        <img class="imagen__ejemplo" src="../img/ejemplo3.jpg" alt="" width="100%">
         <li><h3 class="pasos">Segundo paso:</h3></li>
         <p class="pasos__texto">Una vez cargado todos los artículos que desea al carrito, deberá visitarlo haciendo click en el icono que se encuentra en la botonera ubicada en el margen superior derecho del sitio</p>
-        <img class="imagen__ejemplo" src="https://randomwordgenerator.com/img/picture-generator/54e3d0414b54a914f1dc8460962e33791c3ad6e04e507749712a72d3954dcd_640.jpg" alt="">
+        <img class="imagen__ejemplo" src="https://randomwordgenerator.com/img/picture-generator/54e3d0414b54a914f1dc8460962e33791c3ad6e04e507749712a72d3954dcd_640.jpg" alt="" width="100%">
         <li><h3 class="pasos">Tercer paso:</h3></li>
         <p class="pasos__texto">Una vez visitado el carrito usted tendrá la opción de quitar el artículo que desee, verificar el monto total de la compra y finalizar la compra</p>
-        <img class="imagen__ejemplo" src="https://randomwordgenerator.com/img/picture-generator/57e6d1454e51a914f1dc8460962e33791c3ad6e04e50744172277fd7914bc3_640.jpg" alt="">
+        <img class="imagen__ejemplo" src="https://randomwordgenerator.com/img/picture-generator/57e6d1454e51a914f1dc8460962e33791c3ad6e04e50744172277fd7914bc3_640.jpg" alt="" width="100%">
         <li><h3 class="pasos">Cuarto paso:</h3></li>
         <p class="pasos__texto">Deberá completar un formulario donde colocara sus datos personales y la forma en que desea pagar y por último deberá hacer click en realizar compra</p>
-        <img class="imagen__ejemplo" src="https://randomwordgenerator.com/img/picture-generator/57e5d3454b53ac14f1dc8460962e33791c3ad6e04e507440752f72d79448c4_640.jpg" alt="">
+        <img class="imagen__ejemplo" src="https://randomwordgenerator.com/img/picture-generator/57e5d3454b53ac14f1dc8460962e33791c3ad6e04e507440752f72d79448c4_640.jpg" alt="" width="100%">
     </ol>
+    </section>
 </body>
 
 
